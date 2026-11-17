@@ -1,0 +1,24 @@
+{
+  "roles": [
+    "joint_report",
+    "curve_file"
+  ],
+  "relation_field": "sample_batch",
+  "required_fields": {
+    "joint_report": [
+      "sample_batch",
+      "joint_model",
+      "condition"
+    ],
+    "curve_file": [
+      "sample_batch",
+      "condition",
+      "curve_digest"
+    ]
+  },
+  "source_identity": [
+    "kind",
+    "id",
+    "revision"
+  ]
+}
