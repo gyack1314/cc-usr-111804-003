@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://local-source-003.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-003.example.test/records/joint_report-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 149,
+        "sha256": "ebc77707a87fd7eb53776af0d5dfd595770f000f6514a7f5c7ebd15512331357"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-003.example.test/records/curve_file-B",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-2.bin",
+        "status": 200,
+        "bytes": 143,
+        "sha256": "4af72461cdd5639a001e5004ee407c01fcda0aee20e037107d7d2d63c7886d85"
+      }
+    }
+  ]
+}
