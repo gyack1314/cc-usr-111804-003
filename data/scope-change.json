@@ -1,0 +1,18 @@
+{
+  "allowed_origins": [
+    "https://local-source-003.example.test"
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-003.example.test/records/joint_report-A",
+      "kind": "joint_report",
+      "required": true
+    },
+    {
+      "url": "https://local-source-003.example.test/records/condition_attachment-A",
+      "kind": "condition_attachment",
+      "required": true
+    }
+  ],
+  "steps": []
+}
