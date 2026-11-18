@@ -29,5 +29,17 @@
         "sha256": "0ad84c698c0f7ed982e85d4ee710db472c8421bc390a6b69a6da452aa1268a2f"
       }
     }
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-003.example.test/records/joint_report-A",
+      "kind": "joint_report",
+      "required": true
+    },
+    {
+      "url": "https://local-source-003.example.test/records/curve_file-B",
+      "kind": "curve_file",
+      "required": true
+    }
   ]
 }
