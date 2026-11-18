@@ -6,12 +6,14 @@
     {
       "url": "https://local-source-003.example.test/records/joint_report-A",
       "kind": "joint_report",
-      "required": true
+      "required": true,
+      "expected_revision": "v1"
     },
     {
       "url": "https://local-source-003.example.test/records/curve_file-B",
       "kind": "curve_file",
-      "required": true
+      "required": true,
+      "expected_revision": "v1"
     }
   ],
   "steps": [
