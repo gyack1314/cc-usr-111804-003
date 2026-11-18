@@ -1,7 +1,8 @@
 {
   "roles": [
     "joint_report",
-    "curve_file"
+    "curve_file",
+    "condition_attachment"
   ],
   "relation_field": "sample_batch",
   "required_fields": {
@@ -14,6 +15,12 @@
       "sample_batch",
       "condition",
       "curve_digest"
+    ],
+    "condition_attachment": [
+      "sample_batch",
+      "condition",
+      "calibration_revision",
+      "pages"
     ]
   },
   "source_identity": [

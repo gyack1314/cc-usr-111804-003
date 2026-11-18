@@ -1,0 +1,9 @@
+{
+  "kind": "condition_attachment",
+  "id": "condition_attachment-A",
+  "revision": "v1",
+  "sample_batch": "S-1",
+  "condition": "rated_load",
+  "calibration_revision": "cal-r2",
+  "pages": 4
+}
