@@ -1,0 +1,8 @@
+{
+  "kind": "joint_report",
+  "id": "joint_report-A",
+  "revision": "v2",
+  "sample_batch": "S-1",
+  "joint_model": "J-10",
+  "condition": "peak_load"
+}
